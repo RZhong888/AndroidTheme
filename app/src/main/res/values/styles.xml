@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <style name="TextView">
+        <item name="android:fontFeatureSettings" tools:ignore="NewApi">lnum</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Body">
+        <item name="android:fontFamily">?attr/textDefaultFamily</item>
+        <item name="android:textSize">?attr/textDefaultSize</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:minHeight">24sp</item>
+        <item name="android:textColor">?attr/textDefault</item>
+    </style>
+
+</resources>

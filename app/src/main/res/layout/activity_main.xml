@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/switch_mode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="light mode / dark mode"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/ab_testing_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AB testing"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/switch_mode_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/using_style_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="use the theme's attrs on the specific style"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/ab_testing_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/using_attr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using the attrs form the theme"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/using_style_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/theme_overlay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="theme overlay demo"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/using_attr_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/theme_overlay_two_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="theme overlay demo_2"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/theme_overlay_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

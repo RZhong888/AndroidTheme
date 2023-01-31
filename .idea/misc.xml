@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_ab_testing.xml" value="0.2647058823529412" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/activity_switch_mode.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_theme_overlay.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_theme_overlay_two.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/activity_using_attr_on_the_code_layer.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_using_style.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/layout_import.xml" value="0.28802083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

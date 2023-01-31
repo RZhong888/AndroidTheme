@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UsingTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="textDefaultSize">@dimen/test_font_size_one</item>
+        <item name="textDefaultFamily">@font/lato_regular</item>
+        <item name="textDefault">@color/red_600</item>
+        <item name="linkDefault">@color/indigo_400</item>
+        <item name="iconFab">@color/red_200</item>
+    </style>
+
+    <!-- Challenger theme. -->
+    <style name="Theme.UsingTheme.Challenger" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="textDefaultSize">@dimen/test_font_size_two</item>
+        <item name="textDefaultFamily">@font/source_serifpro_regular</item>
+        <item name="textDefault">@color/indigo_600</item>
+        <item name="linkDefault">@color/red_200</item>
+        <item name="iconFab">@color/indigo_400</item>
+    </style>
+</resources>
