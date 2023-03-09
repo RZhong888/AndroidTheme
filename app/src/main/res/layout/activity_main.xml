@@ -66,4 +66,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <Button
+        android:id="@+id/force_dark_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="force dark"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/theme_overlay_two_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/crash_one_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crash one"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/theme_overlay_two_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

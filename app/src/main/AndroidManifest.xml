@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.usingtheme">
 
+    <!--        android:theme="@style/Theme.UsingTheme"-->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,7 +12,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UsingTheme"
         tools:targetApi="31">
 
         <activity
@@ -26,27 +26,35 @@
 
         <activity
             android:name=".SwitchModeActivity"
-            android:exported="true" />
+            android:exported="false" />
 
         <activity
             android:name=".ABTestingActivity"
-            android:exported="true" />
+            android:exported="false" />
 
         <activity
             android:name=".UsingStyleActivity"
-            android:exported="true"/>
+            android:exported="false"/>
 
         <activity
             android:name=".UsingAttrActivity"
-            android:exported="true"/>
+            android:exported="false"/>
 
         <activity
             android:name=".ThemeOverlayActivity"
-            android:exported="true"/>
+            android:exported="false"/>
 
         <activity
             android:name=".ThemeOverlayTwoActivity"
-            android:exported="true"/>
+            android:exported="false"/>
+
+        <activity
+            android:name=".ForceDarkActivity"
+            android:exported="false"/>
+        
+        <activity
+            android:name=".CrashOneActivity"
+            android:exported="false"/>
 
     </application>
 

@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         findViewById<Button>(R.id.using_attr_btn)?.setOnClickListener(this)
         findViewById<Button>(R.id.theme_overlay_btn)?.setOnClickListener(this)
         findViewById<Button>(R.id.theme_overlay_two_btn)?.setOnClickListener(this)
+        findViewById<Button>(R.id.force_dark_btn)?.setOnClickListener(this)
+        findViewById<Button>(R.id.crash_one_btn)?.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -27,6 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.using_attr_btn -> navigateToUsingAttrDemo()
             R.id.theme_overlay_btn -> navigateToThemeOverlayDemo()
             R.id.theme_overlay_two_btn -> navigateToThemeOverlayDemo2()
+            R.id.force_dark_btn -> navigateToForceDarkDemo()
+            R.id.crash_one_btn -> navigateToCrashOneDemo()
             else -> Unit
         }
     }
@@ -59,5 +63,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun navigateToThemeOverlayDemo2() =
         startActivity(
             Intent(this, ThemeOverlayTwoActivity::class.java)
+        )
+
+    private fun navigateToForceDarkDemo() =
+        startActivity(
+            Intent(this, ForceDarkActivity::class.java)
+        )
+
+    private fun navigateToCrashOneDemo() =
+        startActivity(
+            Intent(this, CrashOneActivity::class.java)
         )
 }
